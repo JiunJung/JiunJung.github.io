@@ -1,4 +1,23 @@
 // Styling for the navbar
+
+//a new category css is added below 
+#site-category li a{
+  display:block;
+  font-weight:normal;
+  line-height:50px;
+  margin: 0px;
+  padding:0px 25px;
+  text-align:center;
+  text-decoration:none;
+  }
+
+#site-category a:hover{
+  background: rgb(71,71,71);
+  color:#FFFFFF;
+  text-decoration:none;
+  }
+
+//adding category css ends.
 #mainNav {
     position: absolute;
     border-bottom: 1px solid $gray-200;
@@ -25,6 +44,51 @@
                 font-weight: 800;
                 letter-spacing: 1px;
                 text-transform: uppercase;
+            }
+            >ul {
+                background: rgb(109,109,109);
+                display:none;
+                height:auto;
+                padding:0px;
+                margin:0px;
+                border:0px;
+                position:absolute;
+                width:200px;
+                z-index:200;
+                li{
+                    display:block;
+                    float:none;
+                    margin:0px;
+                    padding:0px;
+                    width:200px;
+                    a{
+                        display:block;
+                        height:50px;
+                        font-size:12px;
+                        font-style:normal;
+                        margin:0px;
+                        padding:0px 10px 0px 20px;
+                        text-align:left;
+                        line-height: 50px;
+                        
+                    }
+                    a:hover{
+                        background: rgb(71,71,71);
+                        border:0px;
+                        color:#ffffff;
+                        text-decoration:none;
+                    }
+                }
+            }
+        }
+        >li:hover{
+            >ul{
+                display:block;
+                li{
+                    >a{
+                        background:none;
+                    }
+                }
             }
         }
     }
