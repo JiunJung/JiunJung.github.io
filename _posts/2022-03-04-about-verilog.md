@@ -3,7 +3,7 @@ layout: post
 title: "Behavioral coding in verilog"
 date: 2022-03-04 01:59:00 +0900
 background:
-categories: ComputerArchitecture
+categories: DevJiun
 ---
 
 컴퓨터 구조 강의를 듣기 전 지난 논리회로설계 강의를 복습하면서 중요하다고 생각하는 부분을 좀 적어보았다.

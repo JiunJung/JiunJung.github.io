@@ -1,0 +1,22 @@
+I"�<p>google news를 들여다 보는 것은 영어공부와 동시에 최신 정보들을 습득할 수 있어 굉장히 좋다. 나같이 유학경험이 전무한 토종한국인에게는 이렇게 지속적으로 영어를 내 환경에 노출시키는 것이 영어 실력 향상에 있어서 아주 중요하다고 생각한다.</p>
+
+<p>재미난 기사를 발견하면 요약해 올릴 생각이다.</p>
+
+<h1 id="cybercriminals-who-breached-nvidia-issue-one-of-the-most-unusual-demands-ever">Cybercriminals who breached Nvidia issue one of the most unusual demands ever</h1>
+
+<p>오늘 읽은 기사는 “Cybercriminals who breached Nvidia issue one of the most unusual demands ever”라는 제목의 기사이다. 바로가기 : <a href="https://arstechnica.com/information-technology/2022/03/cybercriminals-who-breached-nvidia-issue-one-of-the-most-unusual-demands-ever/">https://arstechnica.com/information-technology/2022/03/cybercriminals-who-breached-nvidia-issue-one-of-the-most-unusual-demands-ever/</a></p>
+
+<p>제목에서 알 수 있듯, 엔비디아를 해킹한 집단이 엔비디아에게 특이한 제안을 했다는 것이 주 내용이다.</p>
+
+<p>Lapsus$라는 해커 집단은 엔비디아의 드라이버,펌웨어 소스코드 등의 정보를 털어 엔비디아에게 그래픽카드에서 LHR을 제거하지 않으면 훔친 정보를 다 불어버린다고 한다.</p>
+
+<p>LHR은 2021년 2월에 RTX3060 출시와 함께 엔비디아가 발표한 기능인데, 이 기능은 이더리움 채굴 알고리즘의 특정 부분들을 감지해서 발견되면 채굴 효율성을 50% 감소하는 기능이다.</p>
+
+<p>해커들은 이게 아주 마음에 안들었던 모양이다.</p>
+
+<p>하지만 엔비디아는 이에 응하지 않고 보안을 검토중이라고 발표했다.</p>
+
+<hr />
+
+<p>한줄평 : 엔비디아 그래픽 카드의 베릴로그가 오픈소스가 되면 재밌긴 하겠다.</p>
+:ET
