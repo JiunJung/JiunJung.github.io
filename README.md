@@ -1,5 +1,5 @@
-# Jiun's blog
+# jiunjung.github.io
 
-- Welcome to Jiun's blog
-- This app is made of "Jekyll", "[clean-blog-jekyll](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)"
-- You can find this website by googling "jiun's blog" or "jiun jung blog" 
+- Jekyll을 사용해서 만든 블로그입니다.
+- "[clean-blog-jekyll](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll)"테마을 사용했습니다.
+- 구글에 "jiun's blog" 또는 "jiun jung blog"을 검색하시면 쉽게 찾으실 수 있습니다.
