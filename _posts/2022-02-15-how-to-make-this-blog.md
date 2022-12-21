@@ -7,8 +7,8 @@ background: '/img/posts/2022-02-15-blog.jpg'
 categories: etc
 ---
 
-# Jekyll로 블로그 만들기. | Jekyll 사용법
-내가 웹 개발에 막 관심이 가기 시작했을 때 "내 이름.github.io"가 주소인 내 블로그를 만들고 싶었다. 이번 포스트는 github pages와 jekyll을 이용해서 정적 웹사이트를 만드는 방법이다.
+# Jekyll로 블로그 만들기.
+"<내 이름>.github.io"가 주소인 나만의 블로그를 만들고 싶었던 적이 있으셨나요? 이번 포스트는 github pages와 jekyll을 이용해서 정적 웹사이트를 만드는 방법입니다. 지금 보고 계신 블로그가 이 방법으로 만들어졌으니, 따라해보고 싶으신 분들은 아래 방법을 참고하시면 쉽게 만들 수 있습니다.
 
 - (깃허브페이지 : <https://pages.github.com/>) 
 - (Jekyll 공식 문서 : <https://jekyllrb-ko.github.io/>)
@@ -21,7 +21,7 @@ jekyll은 Ruby라는 언어로 된 정적 사이트 생성기이다.
 
 Jekyll 공식 사이트에서 jekyll이 어떤 식으로 동작하는 지 자세히 알 수 있다.
 
-나는 윈도우10 환경에서 진행하였다. 윈도우 10 환경에서는 윈도우 명령 프롬프트(cmd)대신 <a href="https://cmder.net/" target="_blank">Cmder</a>를 설치해서 사용하는 것을 추천한다. (리눅스 명령어를 사용할 수 있다.)
+해당 내용은  윈도우10 환경에서 진행한 것이다. 윈도우 10 환경에서는 윈도우 명령 프롬프트(cmd)대신 <a href="https://cmder.net/" target="_blank">Cmder</a>를 설치해서 사용하는 것을 추천한다. (리눅스 명령어를 사용할 수 있어 편하다.)
 
 --------------------------------
 
@@ -29,7 +29,7 @@ Jekyll 공식 사이트에서 jekyll이 어떤 식으로 동작하는 지 자세
 
 1.  <a href="https://jekyllrb-ko.github.io/docs/installation/windows/" target="_blank">"Jekyll 설치하기"</a>  페이지에 들어가서 설명을 읽어보며 Ruby와 Jekyll을 설치한다.
 2.  설치 가이드에 '설치 마법사의 마지막 단계에서 ridk install 절차를 수행하세요.'
-라는 말이 있는 데, 따로 뭐 해줄 건 없다. (설치하는 과정에서 '다음'버튼을 누르다보면 이미 체크가 되어있는 것을 확인할 수 있다.) 
+라는 말이 있다. 설치 마법사 화면에서 '다음'버튼을 누르다가 마지막 단계에서 'ridk install' 옵션이 이미 체크가 되어있으니 그냥 넘어가면 된다.
 3. 마지막으로 bundler까지 깔아준다. 
 
 ## 프로젝트 생성하기
