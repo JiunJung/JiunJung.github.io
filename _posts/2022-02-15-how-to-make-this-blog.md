@@ -15,46 +15,46 @@ categories: etc
   
 -----------------------------
 
-jekyll은 Ruby라는 언어로 된 정적 사이트 생성기이다. 
+jekyll은 Ruby라는 언어로 된 정적 사이트 생성기입니다. 
 
-하지만 Ruby 문법을 몰라도 Jekyll사이트에서 설명을 참고하면 쉽게 이용할 수 있다. (한글 번역도 잘 되어있다.) 
+하지만 Ruby 문법을 몰라도 Jekyll사이트에서 설명을 참고하면 쉽게 이용할 수 있습니다. (한글 번역도 잘 되어있습니다.) 
 
-Jekyll 공식 사이트에서 jekyll이 어떤 식으로 동작하는 지 자세히 알 수 있다.
+Jekyll 공식 사이트에서 jekyll이 어떤 식으로 동작하는 지 자세히 알 수 있습니다.
 
-해당 내용은  윈도우10 환경에서 진행한 것이다. 윈도우 10 환경에서는 윈도우 명령 프롬프트(cmd)대신 <a href="https://cmder.net/" target="_blank">Cmder</a>를 설치해서 사용하는 것을 추천한다. (리눅스 명령어를 사용할 수 있어 편하다.)
+아래 내용은  윈도우10 환경에서 진행한 것입니다. 참고로, 윈도우 10 환경에서 윈도우 명령 프롬프트(cmd)대신 <a href="https://cmder.net/" target="_blank">Cmder</a>를 설치해서 사용하는 것을 추천합니다. (리눅스 명령어를 사용할 수 있어 편해요.)
 
 --------------------------------
 
 ## Jekyll 설치하기
 
-1.  <a href="https://jekyllrb-ko.github.io/docs/installation/windows/" target="_blank">"Jekyll 설치하기"</a>  페이지에 들어가서 설명을 읽어보며 Ruby와 Jekyll을 설치한다.
+1.  <a href="https://jekyllrb-ko.github.io/docs/installation/windows/" target="_blank">"Jekyll 설치하기"</a>  페이지에 들어가서 설명을 읽어보며 Ruby와 Jekyll을 설치합니다.
 2.  설치 가이드에 '설치 마법사의 마지막 단계에서 ridk install 절차를 수행하세요.'
-라는 말이 있다. 설치 마법사 화면에서 '다음'버튼을 누르다가 마지막 단계에서 'ridk install' 옵션이 이미 체크가 되어있으니 그냥 넘어가면 된다.
-3. 마지막으로 bundler까지 깔아준다. 
+라는 말이 있습니다. 설치 마법사 화면에서 '다음'버튼을 누르다가 마지막 단계에서 'ridk install' 옵션이 이미 체크가 되어있으니 그냥 넘어가면 됩니다.
+3. 마지막으로 bundler를 설치합니다. 
 
 ## 프로젝트 생성하기
 
-1. <a href="https://jekyllrb-ko.github.io/docs/" target="_blank">"새 Jekyll사이트 생성하기."</a>를 참고하여 적절한 디렉토리 내에 새 프로젝트를 생성한다.
+1. <a href="https://jekyllrb-ko.github.io/docs/" target="_blank">"새 Jekyll사이트 생성하기."</a>를 참고하여 적절한 디렉토리 내에 새 프로젝트를 생성합니다.
 
         $jekyll new myblog
 
-2. 로컬호스트(http://localhost:4000)에서 생성된 사이트를 확인한다.
+2. 로컬호스트(http://localhost:4000)에서 생성된 사이트를 확인합니다.
 
         $bundle exec jekyll serve
 
-3. 지킬 블로그 테마를 이용한다. <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">'clean-blog-jekyll'</a>
+3. 지킬 블로그 테마를 이용합니다. <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">'clean-blog-jekyll'</a>
 
-4. 위 깃허브 주소에 접속 후, 가이드에서 "Using core files" 방법 따라하기.
+4. 위 깃허브 주소에 접속 후, 가이드에서 "Using core files" 방법을 따라합니다.
 
-5. 내 깃허브에서 repository 생성.
+5. 내 깃허브에서 repository를 생성합니다.
 
-6. 테마 파일 clone하기.
+6. 테마 파일을 clone합니다.
 
         $git clone https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git
 
-7. _config.yml 수정 ( <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">'clean-blog-jekyll'</a> 에서 가이드 참고)
+7. _config.yml을 수정하여 자신만의 블로그를 만듭니다. ( <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">'clean-blog-jekyll'</a> 에서 가이드 참고)
 
-8. 테마 파일 연결 해제
+8. 테마 파일 연결을 해제합니다.
 
         $git remote rm origin
 
@@ -69,5 +69,5 @@ Jekyll 공식 사이트에서 jekyll이 어떤 식으로 동작하는 지 자세
         git remote add origin <내 깃허브 repository>
         git push origin main
  
-1분 정도 기다린 후 "https://<사용자명>.github.io"로 접속하면 jekyll 테마를 통해 만든 사이트를 확인할 수 있다. 
+1분 정도 기다린 후 "https://<사용자명>.github.io"로 접속하면 jekyll 테마를 통해 만든 사이트를 확인할 수 있습니다. 
 
