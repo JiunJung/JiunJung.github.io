@@ -1,0 +1,46 @@
+I"
+<h1 id="chip-design-flow">Chip Design Flow</h1>
+
+<p>오늘은 설계자 관점에서 반도체 칩(특히, ASIC)이 만들어지는 과정을 소개하려고 합니다. 실제로는 각 단계에서 세분화되기도 하고, 몇몇 단계가 동시에 수행되기도 합니다. 자, 이제 전형적인 Design Flow에 대해서 말씀드리겠습니다.</p>
+
+<hr />
+
+<h2 id="1-collect-requirements">1. Collect Requirements</h2>
+<p><br />
+우선, 시장의 수요를 조사하여 어떠한 스펙을 가진 반도체 칩을 만들지 정해야 합니다.</p>
+
+<p><br /></p>
+
+<h2 id="2-product-requirementspecipication">2. Product Requirement/Specipication</h2>
+<p><br />
+반도체 칩의 구체적인 스펙을 결정합니다. 예를 들어, 동작 주파수는 몇 Hz로 할 것인지, USB나 PCIe 인터페이스를 요구하는 지 등의 스펙을 정합니다.</p>
+
+<p><br /></p>
+
+<h2 id="3-architecture-specification">3. Architecture Specification</h2>
+<p><br />
+칩의 구조를 구상하는 단계입니다. 위에서 결정한 스펙을 충족하는 칩을 만들기 위해서 어떠한 구성요소가 필요한 지, 각 구성요소간 어떻게 연결해야 하는 지 결정합니다.</p>
+
+<p><img src="/img/in_post/chip-require.jpg" width="500" height="500" /></p>
+
+<p>(출처 : chipverify.com)</p>
+
+<p><br /></p>
+
+<h2 id="4-digital-design">4. Digital Design</h2>
+
+<p><br /></p>
+
+<p>베릴로그와 같은 하드웨어 기술 언어를 통해 칩을 설계합니다. 쉽게 말해 베릴로그 코딩하는 단계라고 말할 수 있습니다. 이 단계를 RTL이라고도 하고요, 이는 Resistor transfer level의 준말입니다.</p>
+
+<p>이 때, 보통 칩의 모든 부분을 처음부터 끝까지 모두 설계하는 것은 아닙니다. IP Vendor에서 IP를 사들이거나, 이미 만들어진 모듈을 사용하여 설계합니다. 이렇게 하면 시간을 절약할 수 있으니까요. 참고로, 이 단계에서 베릴로그 코딩은 게이트 수준의 코딩이 아닙니다. 구현할 기능을 명시하는 Behavior 코딩을 통해서 하드웨어의 동작을 기술하게 됩니다. 이는, 초고집적된 반도체 칩의 회로설계를 더 이상 게이트 수준에서 디자인하기에는 굉장히 복잡하고 많은 시간이 걸리기 때문입니다. 따라서 Behavior 코딩을 통해서 시간을 절약할 수 있습니다.</p>
+
+<p><img src="/img/in_post/verilog.jpg" width="300" height="450" /></p>
+
+<p>베릴로그 코드 (출처 : chipverify.com)</p>
+
+<p><br /></p>
+
+<h2 id="5-verification">5. Verification</h2>
+
+:ET
