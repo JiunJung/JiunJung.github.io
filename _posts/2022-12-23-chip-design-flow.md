@@ -4,7 +4,7 @@ title: "Chip Design Flow"
 keywords: "Chip Design Flow, 칩 설계 과정, digital design, verilog"
 date: 2022-12-23 13:00:00 +0900
 background: '/img/posts/2022-02-15-blog.jpg'
-categories: electronics
+categories: etc
 ---
 
 # Chip Design Flow

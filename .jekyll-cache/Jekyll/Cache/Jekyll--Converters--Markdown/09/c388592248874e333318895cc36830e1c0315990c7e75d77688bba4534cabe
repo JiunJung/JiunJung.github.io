@@ -1,0 +1,109 @@
+I"�<h1 id="jekyll로-github-pages-블로그-만들기">Jekyll로 Github Pages 블로그 만들기</h1>
+
+<hr />
+
+<p><br /></p>
+
+<p>Github pages와 Jekyll을 이용하면 “내 이름.github.io”가 주소인 블로그를 만들고 관리할 수 있다. 이 블로그 역시 Jekyll을 사용하여 만들어졌다.</p>
+
+<ul>
+  <li>(깃허브 페이지 : <a href="https://pages.github.com/">https://pages.github.com/</a>)</li>
+  <li>(Jekyll 사이트 : <a href="https://jekyllrb-ko.github.io/">https://jekyllrb-ko.github.io/</a>)</li>
+</ul>
+
+<p><br /></p>
+
+<p>jekyll은 Ruby로 만들어진 정적 사이트 생성기이다.</p>
+
+<p>Ruby 문법을 몰라도 Jekyll 사이트에 Jekyll 사용 방법이 쉽게 적혀있어서 쉽게 블로그를 만들 수 있다. (한글 번역도 꽤 잘 되어있다.)</p>
+
+<p>아래 내용은 윈도우10 환경에서 진행한 것이다.</p>
+
+<p><br /></p>
+
+<h2 id="jekyll-설치하기">Jekyll 설치하기</h2>
+
+<hr />
+
+<p><br /></p>
+
+<ol>
+  <li>
+    <p><a href="https://jekyllrb-ko.github.io/docs/installation/windows/" target="_blank">“Jekyll 설치하기”</a>  페이지에 들어가서 설명을 읽고 Ruby와 Jekyll을 설치한다.
+<br /></p>
+  </li>
+  <li>
+    <p>Ruby 설치 가이드 중 ‘설치 마법사의 마지막 단계에서 ridk install 절차를 수행하세요.’
+라는 말이 있다. 하지만, Ruby 설치 마법사 화면에서 마지막 단계에서 ‘ridk install’ 옵션이 이미 체크가 되어있으니 확인 후 넘어가면 된다.
+<br /></p>
+  </li>
+  <li>
+    <p>마지막으로 bundler를 설치한다.</p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="블로그-만들기">블로그 만들기</h2>
+
+<hr />
+
+<p><br /></p>
+
+<ol>
+  <li>
+    <p><a href="https://jekyllrb-ko.github.io/docs/" target="_blank">“새 Jekyll사이트 생성하기.”</a>를 참고하여 원하는 디렉토리에 새 프로젝트를 생성한다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $jekyll new myblog
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>로컬호스트(http://localhost:4000)에서 생성된 사이트를 확인할 수 있다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $bundle exec jekyll serve
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>지킬 블로그 테마를 이용할 수도 있다.(강력히 권장) 이 블로그의 테마 : <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">‘clean-blog-jekyll’</a></p>
+  </li>
+  <li>
+    <p>위 깃허브 주소에 접속 후, Readme에서 “Using core files” 방법을 따라한다.</p>
+  </li>
+  <li>
+    <p>내 깃허브에서 repository를 생성한다. (반드시 깃허브 페이지 : <a href="https://pages.github.com/">https://pages.github.com/</a> 에서 설명하는 대로 repository를 만들 것.)</p>
+  </li>
+  <li>
+    <p>테마 파일을 clone한다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $git clone https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>_config.yml을 수정하여 나만의 블로그를 만든다. ( <a href="https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll" target="_blank">‘clean-blog-jekyll’</a> 에서 가이드 참고)</p>
+  </li>
+  <li>
+    <p>테마 파일 연결을 해제한다.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $git remote rm origin
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>커밋</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git add .
+ git commit -m "commit message"
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>푸쉬</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch -M main
+git remote add origin &lt;내 깃허브 repository&gt;
+git push origin main
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>이제, “https://<사용자명>.github.io"로 접속하면 블로그를 확인할 수 있다. (몇 분 걸릴 수 있다.)</사용자명></p>
+
+:ET
